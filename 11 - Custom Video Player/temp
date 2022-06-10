@@ -1,0 +1,410 @@
+<video class="player__video viewer" src="652333414.mp4">
+​
+accessKey: ""
+​
+accessKeyLabel: ""
+​
+assignedSlot: null
+​
+attributes: NamedNodeMap [ class="player__video viewer", src="652333414.mp4" ]
+​
+autoplay: false
+​
+baseURI: "http://127.0.0.1:5500/11%20-%20Custom%20Video%20Player/index.html"
+​
+buffered: TimeRanges { length: 1 }
+​
+childElementCount: 0
+​
+childNodes: NodeList []
+​
+children: HTMLCollection { length: 0 }
+​
+classList: DOMTokenList [ "player__video", "viewer" ]
+​
+className: "player__video viewer"
+​
+clientHeight: 1080
+​
+clientLeft: 0
+​
+clientTop: 0
+​
+clientWidth: 1308
+​
+contentEditable: "inherit"
+​
+controls: false
+​
+crossOrigin: null
+​
+currentSrc: "http://127.0.0.1:5500/11%20-%20Custom%20Video%20Player/652333414.mp4"
+​
+currentTime: 414.732969
+​
+dataset: DOMStringMap(0)
+​
+defaultMuted: false
+​
+defaultPlaybackRate: 1
+​
+dir: ""
+​
+draggable: false
+​
+duration: 596.5
+​
+ended: false
+​
+enterKeyHint: ""
+​
+error: null
+​
+firstChild: null
+​
+firstElementChild: null
+​
+height: 0
+​
+hidden: false
+​
+id: ""
+​
+innerHTML: ""
+​
+innerText: ""
+​
+inputMode: ""
+​
+isConnected: true
+​
+isContentEditable: false
+​
+lang: ""
+​
+lastChild: null
+​
+lastElementChild: null
+​
+localName: "video"
+​
+loop: false
+​
+mediaKeys: null
+​
+mozAudioCaptured: false
+​
+mozDecodedFrames: 166
+​
+mozFragmentEnd: 596.5
+​
+mozFrameDelay: 0.0148732
+​
+mozHasAudio: true
+​
+mozPaintedFrames: 55
+​
+mozParsedFrames: 218
+​
+mozPresentedFrames: 46
+​
+mozPreservesPitch: true
+​
+muted: false
+​
+namespaceURI: "http://www.w3.org/1999/xhtml"
+​
+networkState: 1
+​
+nextElementSibling: <div class="player__controls">​
+nextSibling: #text "\n\n     "
+​
+nodeName: "VIDEO"
+​
+nodeType: 1
+​
+nodeValue: null
+​
+nonce: ""
+​
+offsetHeight: 1080
+​
+offsetLeft: 0
+​
+offsetParent: <body data-new-gr-c-s-check-loaded="8.899.0" data-gr-ext-installed="">
+​
+offsetTop: 0
+​
+offsetWidth: 1308
+​
+onabort: null
+​
+onanimationcancel: null
+​
+onanimationend: null
+​
+onanimationiteration: null
+​
+onanimationstart: null
+​
+onauxclick: null
+​
+onbeforeinput: null
+​
+onblur: null
+​
+oncanplay: null
+​
+oncanplaythrough: null
+​
+onchange: null
+​
+onclick: null
+​
+onclose: null
+​
+oncontextmenu: null
+​
+oncopy: null
+​
+oncuechange: null
+​
+oncut: null
+​
+ondblclick: null
+​
+ondrag: null
+​
+ondragend: null
+​
+ondragenter: null
+​
+ondragexit: null
+​
+ondragleave: null
+​
+ondragover: null
+​
+ondragstart: null
+​
+ondrop: null
+​
+ondurationchange: null
+​
+onemptied: null
+​
+onencrypted: null
+​
+onended: null
+​
+onerror: null
+​
+onfocus: null
+​
+onformdata: null
+​
+onfullscreenchange: null
+​
+onfullscreenerror: null
+​
+ongotpointercapture: null
+​
+oninput: null
+​
+oninvalid: null
+​
+onkeydown: null
+​
+onkeypress: null
+​
+onkeyup: null
+​
+onload: null
+​
+onloadeddata: null
+​
+onloadedmetadata: null
+​
+onloadend: null
+​
+onloadstart: null
+​
+onlostpointercapture: null
+​
+onmousedown: null
+​
+onmouseenter: null
+​
+onmouseleave: null
+​
+onmousemove: null
+​
+onmouseout: null
+​
+onmouseover: null
+​
+onmouseup: null
+​
+onmozfullscreenchange: null
+​
+onmozfullscreenerror: null
+​
+onpaste: null
+​
+onpause: null
+​
+onplay: null
+​
+onplaying: null
+​
+onpointercancel: null
+​
+onpointerdown: null
+​
+onpointerenter: null
+​
+onpointerleave: null
+​
+onpointermove: null
+​
+onpointerout: null
+​
+onpointerover: null
+​
+onpointerup: null
+​
+onprogress: null
+​
+onratechange: null
+​
+onreset: null
+​
+onresize: null
+​
+onscroll: null
+​
+onsecuritypolicyviolation: null
+​
+onseeked: null
+​
+onseeking: null
+​
+onselect: null
+​
+onselectionchange: null
+​
+onselectstart: null
+​
+onslotchange: null
+​
+onstalled: null
+​
+onsubmit: null
+​
+onsuspend: null
+​
+ontimeupdate: null
+​
+ontoggle: null
+​
+ontransitioncancel: null
+​
+ontransitionend: null
+​
+ontransitionrun: null
+​
+ontransitionstart: null
+​
+onvolumechange: null
+​
+onwaiting: null
+​
+onwaitingforkey: null
+​
+onwebkitanimationend: null
+​
+onwebkitanimationiteration: null
+​
+onwebkitanimationstart: null
+​
+onwebkittransitionend: null
+​
+onwheel: null
+​
+outerHTML: "<video class=\"player__video viewer\" src=\"652333414.mp4\"></video>"
+​
+outerText: ""
+​
+ownerDocument: HTMLDocument http://127.0.0.1:5500/11%20-%20Custom%20Video%20Player/index.html
+​
+parentElement: <div class="player">​
+parentNode: <div class="player">​
+part: DOMTokenList []
+​
+paused: true
+​
+playbackRate: 1
+​
+played: TimeRanges { length: 1 }
+​
+poster: ""
+​
+prefix: null
+​
+preload: ""
+​
+preservesPitch: true
+​
+previousElementSibling: null
+​
+previousSibling: #text "\n     "
+​
+readyState: 4
+​
+scrollHeight: 1080
+​
+scrollLeft: 0
+​
+scrollLeftMax: 0
+​
+scrollTop: 0
+​
+scrollTopMax: 0
+​
+scrollWidth: 1308
+​
+seekable: TimeRanges { length: 1 }
+​
+seeking: false
+​
+shadowRoot: null
+​
+slot: ""
+​
+spellcheck: false
+​
+src: "http://127.0.0.1:5500/11%20-%20Custom%20Video%20Player/652333414.mp4"
+​
+srcObject: null
+​
+style: CSS2Properties(0)
+​
+tabIndex: 0
+​
+tagName: "VIDEO"
+​
+textContent: ""
+​
+textTracks: TextTrackList { length: 0, onchange: null, onaddtrack: null, … }
+​
+title: ""
+​
+videoHeight: 358
+​
+videoWidth: 640
+​
+volume: 1
+​
+width: 0
+​
+<prototype>: HTMLVideoElementPrototype { getVideoPlaybackQuality: getVideoPlaybackQuality(), width: Getter & Setter, height: Getter & Setter, … }

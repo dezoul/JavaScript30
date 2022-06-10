@@ -96,6 +96,43 @@
   </div>
 
 <script>
+
+  const checkboxes = document.querySelectorAll('input[type=checkbox]');
+  console.log(checkboxes);
+
+    let lastChecked 
+
+
+  function clicked(e) { 
+    
+    if (e.shiftKey && this.checked) {
+    let inBetween = false
+    console.log(inBetween)
+      console.log(e)
+      checkboxes.forEach( box => {
+        if (box === this || box === lastChecked) {
+          inBetween = !inBetween;
+          console.log("should be fliped")
+        }
+        if (inBetween){
+          box.checked = true
+        }
+        console.log(inBetween)
+          }
+        )
+    }
+    
+    lastChecked = this
+
+  }
+
+
+  checkboxes.forEach( box => 
+    box.addEventListener('click', clicked)
+  )
+
+  
+
 </script>
 </body>
 </html>

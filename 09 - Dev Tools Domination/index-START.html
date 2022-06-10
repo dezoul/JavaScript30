@@ -22,21 +22,37 @@
     // Interpolated
 
     // Styled
+    console.log('%c test ', "color: #272; background-color:black;")
 
     // warning!
 
+    console.warn('thing');
+
     // Error :|
+    console.error("bob");
 
     // Info
 
+console.info("bob")
+
     // Testing
-
+    const p = document.querySelector('p');
+    console.assert(p.content === 'bob', "it wasnt bob")
     // clearing
-
+console.clear();
     // Viewing DOM Elements
 
-    // Grouping together
+    console.dir(p);
 
+    // Grouping together
+dogs.forEach(dog => {
+  console.group(`${dog.name}`)
+console.log(dog.name);
+  console.log(`${dog.name} is ${dog.age} years old or ${dog.age * 7} in dog years`);
+  console.log(dog.name);
+  console.groupEnd(`${dog.name}`)
+
+})
     // counting
 
     // timing
