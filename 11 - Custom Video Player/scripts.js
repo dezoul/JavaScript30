@@ -8,7 +8,7 @@ const skipButtons = player.querySelectorAll('[data-skip]')
 const playerSliders = player.querySelectorAll('.player__controls .player__slider');
 const volumeSlider = playerSliders[0];
 const SpeedSlider = playerSliders[0];
-const fullScreenButton = player.querySelector('FullScreen__button')
+const fullScreenButton = player.querySelector('.FullScreen__button')
 
 console.log(playButton)
 
@@ -94,11 +94,11 @@ videoBar.addEventListener('mouseup', () => mouseDown = false)
 videoBar.addEventListener('mousemove', (e) => mouseDown && scrub(e))
 
 
-
+fullScreenButton.addEventListener('click', () => video.requestFullscreen())
 
 
 playerSliders.forEach(slider => slider.addEventListener('change', volumeControl ));
 playerSliders.forEach(slider => slider.addEventListener('mousemove', volumeControl));
 
 console.log(video)
-video.requestFullScreen()
+// video.requestFullscreen()
