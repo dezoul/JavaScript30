@@ -23,12 +23,20 @@
       <input type="text" name="item" placeholder="Item Name" required>
       <input type="submit" value="+ Add Item">
     </form>
+    <div>
+      <button id="clear">clear</button>
+      <button id="selectAll">all</button>
+      <button id="selectNone">none</button>
+    </div>
   </div>
 
 <script>
   const addItems = document.querySelector('.add-items');
   const itemsList = document.querySelector('.plates');
   const items = JSON.parse(localStorage.getItem('items')) || [];
+  const clearButton = document.querySelector('#clear');
+  const tickAllButton = document.querySelector('#selectAll');
+  const untickAllButton = document.querySelector('#selectNone');
 
 function addItem(e){
   e.preventDefault();
@@ -75,6 +83,31 @@ function toggleDone(e) {
     // update the local list
   localStorage.setItem('items', JSON.stringify(items))
 }
+
+function clearItems() {
+  items.splice(0, items.length);
+  console.table(items);
+  populateList(items, itemsList);
+}
+
+function selectAllFood() {
+  items.forEach(element => {
+    element.done = true
+  });
+  populateList(items, itemsList);
+  console.table(items)
+}
+  function selectNoFood() {
+    items.forEach(element => {
+      element.done = false
+    });
+    populateList(items, itemsList);
+    console.table(items)
+  }
+
+clearButton.addEventListener('click', clearItems)
+tickAllButton.addEventListener('click', selectAllFood)
+untickAllButton.addEventListener('click', selectNoFood)
 
 
 itemsList.addEventListener('click', toggleDone)
